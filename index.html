@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yudha E - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about"><i class="fas fa-user"></i> About Me</a></li>
+        <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+        <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+        <li><a href="#recommendations"><i class="fas fa-star"></i> Recommendations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about" class="section fade-in">
+    <h1>About Me</h1>
+    <div class="content">
+      <img src="profile.jpg" alt="Yudha E" class="profile-image">
+      <div class="text">
+        <h2>Yudha E</h2>
+        <p>I am a Software Engineer with expertise in building scalable web and mobile applications. My passion lies in creating innovative solutions that solve real-world problems.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section fade-in">
+    <h1>Skills</h1>
+    <div class="skills-grid">
+      <div class="skill"><i class="fab fa-kotlin"></i> Kotlin</div>
+      <div class="skill"><i class="fab fa-dart"></i> Dart</div>
+      <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+      <div class="skill"><i class="fab fa-python"></i> Python</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section fade-in">
+    <h1>Projects</h1>
+    <div class="projects-grid">
+      <div class="project">
+        <h3><i class="fas fa-globe"></i> Web Application Government</h3>
+        <p>A robust web application designed to streamline government processes.</p>
+      </div>
+      <div class="project">
+        <h3><i class="fas fa-shopping-cart"></i> e-Store</h3>
+        <p>An e-commerce platform for small businesses to sell products online.</p>
+      </div>
+      <div class="project">
+        <h3><i class="fas fa-book"></i> Learning System</h3>
+        <p>An interactive learning management system for educational institutions.</p>
+      </div>
+      <div class="project">
+        <h3><i class="fas fa-brain"></i> Generative AI</h3>
+        <p>A project leveraging generative AI to create personalized content.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommendations Section -->
+  <section id="recommendations" class="section fade-in">
+    <h1>Recommendations</h1>
+    <div class="testimonials">
+      <blockquote>
+        "Yudha is an exceptional software engineer who delivers high-quality work on time."
+        <cite>- John Doe, CEO</cite>
+      </blockquote>
+      <blockquote>
+        "His expertise in Kotlin and Python has been invaluable to our team."
+        <cite>- Jane Smith, Tech Lead</cite>
+      </blockquote>
+    </div>
+    <h2>Leave a Testimonial</h2>
+    <form id="testimonial-form">
+      <textarea placeholder="Write your testimonial here..." required></textarea>
+      <button type="submit">Submit <i class="fas fa-paper-plane"></i></button>
+    </form>
+  </section>
+
+  <!-- Popup -->
+  <div id="popup" class="popup">
+    <div class="popup-content scale-in">
+      <span class="close">&times;</span>
+      <h2>Thank You!</h2>
+      <p>Your testimonial has been submitted successfully.</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Yudha E. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
